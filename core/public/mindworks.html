@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0"/>
+        <script>
+            var GA_ENVIRONMENT = 'MINDWORKS';
+
+            function gameStart() {
+                document.dispatchEvent(new CustomEvent('mindworks_gameStart'));
+            }
+            function gameClose() {
+                document.dispatchEvent(new CustomEvent('mindworks_gameEnd'));
+            }
+        </script>
+    </head>
+    <body>
+        <div id="game_ui"></div>
+        <div id="game"></div>
+    </body>
+</html>
