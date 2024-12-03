@@ -1,0 +1,58 @@
+{
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "base64-arraybuffer": "^1.0.2",
+        "fontfaceobserver": "^2.3.0",
+        "gsap": "^3.10.4",
+        "howler": "^2.2.3",
+        "lodash": "^4.17.21",
+        "pixi.js": "^7.1.2",
+        "three": "^0.168.0",
+        "uuid": "^8.3.2"
+    },
+    "scripts": {
+        "start": "cd core && npm start",
+        "build": "npx update-browserslist-db@latest && cd core && npm run build",
+        "update": "npx update-browserslist-db@latest && npm install",
+        "build-prod": "npx update-browserslist-db@latest && cd core && npm run build-prod",
+        "init": "cd core && npm install && cd .. && npm install && npm start"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/fontfaceobserver": "^2.1.3",
+        "@types/google.analytics": "^0.0.42",
+        "@types/gsap": "^3.0.0",
+        "@types/howler": "^2.2.6",
+        "@types/lodash": "^4.14.180",
+        "@types/three": "^0.168.0",
+        "@types/uuid": "^8.3.4",
+        "@typescript-eslint/eslint-plugin": "^5.20.0",
+        "@typescript-eslint/parser": "^5.20.0",
+        "eslint": "^8.14.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-import-resolver-alias": "^1.1.2",
+        "eslint-import-resolver-webpack": "^0.13.2",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "prettier": "2.6.2",
+        "style-loader": "^3.3.1",
+        "typescript": "^4.3.5",
+        "webpack": "^5.42.1",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.15.1",
+        "webpack-merge": "^5.8.0"
+    }
+}

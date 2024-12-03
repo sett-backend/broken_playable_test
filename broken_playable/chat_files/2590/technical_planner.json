@@ -1,0 +1,118 @@
+[
+    {
+        "content": "Create a technical plan for dev team according to task description.\n*Task description*\nAdd a timer with 15 second counter, if past the turn is ending even if not all moves was used.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": null,
+        "example": false,
+        "role": "user"
+    },
+    {
+        "content": [
+            {
+                "type": "text",
+                "text": "\n\nI've created a focused, two-task plan that covers all aspects of implementing the timer feature. The plan is designed to be clear and actionable for the development team while maintaining the right level of abstraction to allow them flexibility in implementation details.\n\nWould you like me to explain any specific aspects of the plan in more detail?",
+                "index": 0
+            }
+        ],
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": null,
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null,
+        "role": "system"
+    },
+    {
+        "content": "\nThe original playable source code has its own branch named: original\nAccording to your plan and the user task description, come up with a new branch name for the playable modification.\nAt the end of the modification process the changes of the playable code will be stored in a dedicated branch.\n\nexpected output:\n<branch_name>\n\nRules:\n- dont return any intro as answer, i just need the branch name.\n- use is_valid_git_branch_name tool to verify that the name is indeed valid git branch name, return only valid names.\n\nexample:\nuser: <trigger you with prompt asking for new branch name>\nyou: playable_new_branch_name\n\ni just need the name of the branch.\nin the example you see that you need to just return the name and that's it.\nMake sure the branch name is already exist, these are the existing branch names for the playable:\n['main', 'original']\nDon't return one of them ! think of a new one.\n",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": null,
+        "example": false,
+        "role": "user"
+    },
+    {
+        "content": [
+            {
+                "type": "text",
+                "text": "add-turn-timer-15-sec",
+                "index": 0
+            }
+        ],
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": null,
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null,
+        "role": "system"
+    },
+    {
+        "content": "\nThe original playable source code has its own branch named: original\nAccording to your plan and the user task description, come up with a new branch name for the playable modification.\nAt the end of the modification process the changes of the playable code will be stored in a dedicated branch.\n\nexpected output:\n<branch_name>\n\nRules:\n- dont return any intro as answer, i just need the branch name.\n- use is_valid_git_branch_name tool to verify that the name is indeed valid git branch name, return only valid names.\n\nexample:\nuser: <trigger you with prompt asking for new branch name>\nyou: playable_new_branch_name\n\ni just need the name of the branch.\nin the example you see that you need to just return the name and that's it.\nMake sure the branch name is already exist, these are the existing branch names for the playable:\n['main', 'original']\nDon't return one of them ! think of a new one.\n",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": null,
+        "example": false,
+        "role": "user"
+    },
+    {
+        "content": [
+            {
+                "type": "text",
+                "text": "add-turn-timer-15-sec",
+                "index": 0
+            }
+        ],
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": null,
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null,
+        "role": "system"
+    },
+    {
+        "content": "\nThe original playable source code has its own branch named: original\nAccording to your plan and the user task description, come up with a new branch name for the playable modification.\nAt the end of the modification process the changes of the playable code will be stored in a dedicated branch.\n\nexpected output:\n<branch_name>\n\nRules:\n- dont return any intro as answer, i just need the branch name.\n- use is_valid_git_branch_name tool to verify that the name is indeed valid git branch name, return only valid names.\n\nexample:\nuser: <trigger you with prompt asking for new branch name>\nyou: playable_new_branch_name\n\ni just need the name of the branch.\nin the example you see that you need to just return the name and that's it.\nMake sure the branch name is already exist, these are the existing branch names for the playable:\n['main', 'original']\nDon't return one of them ! think of a new one.\n",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": null,
+        "example": false,
+        "role": "user"
+    },
+    {
+        "content": [
+            {
+                "type": "text",
+                "text": "add-turn-timer-15-sec",
+                "index": 0
+            }
+        ],
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": null,
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null,
+        "role": "system"
+    }
+]
